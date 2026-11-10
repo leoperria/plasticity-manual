@@ -40,7 +40,7 @@ and remove the item here. Until then the manual must not be described as fully v
 
 ## Chapter 4 Sketching and primitive tools
 
-- Center, Two-Point and Three-Point Circle – is the Tab value a radius or a diameter? Center Circle says "centre and diameter", and no field is named – test in 26.2.0: type 10 in each variant, confirm, run Measure Radius, and record the input label and the R value.
+- Center Circle – **settled in 25.1.9** (diameter, unlabelled input; see corrections log, 10/11/2026). Still open: (a) confirm in 26.2.0 – 26.1 changed Tab and inline inputs in several tools – Center Circle, Tab, type 10, Measure Radius, record R; (b) Two-Point and Three-Point Circle – is the Tab value a radius or a diameter? – type 10 in each, confirm, run Measure Radius, and record the input label and the R value.
 - Tangent Circle – field labelled "Radius", described as "Specify the diameter" – test: two parallel lines 20 apart, Tangent Circle on both, type 10. Record whether a circle is created, the field label, and the Measure Radius R value.
 - Spiral – field "Radius", described as diameter, [R] "diameter" – test: spiral along Z, Radius 10, then Measure Distance along X between the two points of one turn farthest apart. Record the label and the distance (10 means a diameter, 20 a radius).
 - Spiral – what Pitch means (rise per turn?), and which value changes when Turns changes – test: 5 turns, axis 10. Record Pitch and Angle, set Turns to 10, and record what changes.
@@ -130,7 +130,6 @@ and remove the item here. Until then the manual must not be described as fully v
 - 10.1 Curves – does a body update when its source curve is edited after Extrude? Not documented. Test (26.2.0): extrude a rectangle region by 30, move one curve CV, and record whether the body changes.
 - 10.1 Persistence – are measurements (Measure Distance, Continuity, Curvature entries in the Outliner) saved in the .plasticity file? Test: create one of each, save, reopen, and check the Outliner › Measurements.
 - 10.2 Hollow direction – is the wall added inside or outside the selected solid's faces? Test: Hollow an 80 × 50 × 30 box (top face selected, Thickness 2), then measure the outer length (80 or 84).
-- 10.2 Circle Tab field – radius or diameter? Test: Center Circle, press Tab, and record the field label.
 - 10.4 Acceptance tolerances behind the Measure Continuity markers are undocumented. G0/G1/G2 Scale conflicts: the Measure Continuity page says "visual scale of combs and deviation plots"; Edge Align says "tolerance scales for respective continuity checks". Test: Pair A (two extruded lines at 30°) and Pair B (Conic vs G2 fillet on a box). Record the deviation and marker per level, change G1 Scale and G2 Scale to two values, and record whether any marker changes.
 - 10.4 Does Measure Continuity accept the single shared edge of a solid, or does it need two sheet edges? Test: run it on a filleted box edge without unjoining, and record whether it is accepted.
 - 10.4 Exercise expected results (Pair A G0 pass/G1 fail; Conic G1 pass/G2 fail; G2 fillet G2 pass) are theory only; record the actual values and markers.

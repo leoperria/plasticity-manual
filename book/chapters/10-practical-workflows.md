@@ -59,7 +59,7 @@ This project builds a small open tray, 80 × 50 × 30 mm, with 2 mm walls, round
 
 ### 5 – Cut the drain hole {-}
 
-1. Draw a circle 10 mm across on the ground plane, inside the tray's footprint ([Center Circle · Two-Point Circle · Three-Point Circle]{.cmd}). Press [Tab]{.key} to type the size, and check whether the field asks for radius or diameter.
+1. Draw a circle 10 mm across on the ground plane, inside the tray's footprint ([Center Circle · Two-Point Circle · Three-Point Circle]{.cmd}). Press [Tab]{.key} and type 10: in Center Circle the value is the diameter [25.1.9]{.tested}.
 2. Click inside the circle to select its region. Extrude starts.
 3. Press [W]{.key} for **Difference**, so that the extrusion cuts into the target body. If the tray is not picked as the target, use **Select target bodies** in the dialog.
 4. Press [S]{.key} (Lock distances) to extrude by the same distance on both sides, and type 5. The tool now goes 5 mm below and above the 2 mm floor. It does not stop exactly on the floor's underside (see the Tips under [Boolean]{.cmd}). Confirm.

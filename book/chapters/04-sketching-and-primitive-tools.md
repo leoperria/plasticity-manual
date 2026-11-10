@@ -160,7 +160,7 @@ Step by step:
    - **Center Circle** – click the centre, then move the cursor to set the size and click.
    - **Two-Point Circle** – click one end of the diameter, then move the cursor and click the other end.
    - **Three-Point Circle** – click a point on the circumference, then a second one, then move the cursor to set the size and click the third.
-3. Press [Tab]{.key} to type the size instead of clicking. Read the label of the input box first: the docs do not say whether it is a radius or a diameter (see *Radius or diameter?* at the start of this chapter).
+3. Press [Tab]{.key} to type the size instead of clicking. In **Center Circle** the value is the **diameter**: the input box has no label, and its guide line runs across the whole circle through the centre – typing 10 gives a circle 10 across (radius 5) [25.1.9]{.tested}. For Two-Point and Three-Point Circle the docs do not say; check the result with Measure Radius.
 4. Confirm; a single [Enter]{.key} or left-click also confirms [24.1]{.ver}.
 
 Keys:
@@ -172,7 +172,7 @@ Keys:
 Common problems:
 
 - The circle stands up instead of lying on the plane → [V]{.key} has tilted it; press [V]{.key} again.
-- A typed value gives a circle twice or half the expected size → the value was taken as the other of radius and diameter. Undo, and type double or half the value.
+- A typed circle comes out half the size you expected → you typed a radius, but Center Circle takes the diameter [25.1.9]{.tested}. Undo, and type double the value. In the other two variants, check the size with Measure Radius.
 
 Tips:
 
