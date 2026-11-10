@@ -122,8 +122,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md): one topic per pull request, cite a sourc
 
 ## Licence and legal notes
 
-No licence has been chosen yet – add a `LICENSE` file before accepting outside contributions
-(a common split is MIT for the tooling and CC BY-SA 4.0 for the text).
+The manual's text and diagrams are licensed under [CC BY-SA 4.0](LICENSE-CC-BY-SA-4.0.txt); the build tooling
+under MIT. See [LICENSE](LICENSE) for which files fall under which licence. By contributing you agree to license
+your contribution under the same terms.
 
 This manual describes a commercial product and was compiled by paraphrasing the official Plasticity documentation and release notes.
 “Plasticity” is a product of Plastic Software. Before publishing, consider checking the terms of use of doc.plasticity.xyz or asking
