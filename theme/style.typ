@@ -8,7 +8,7 @@
 //   Typst leading  = RL leading − size
 //   gap A → B      = A.leading − 1.24 × A.size + A.spaceAfter + B.spaceBefore + 0.24 × B.size
 //   text at top of a box: extra 0.24 × size inset
-// Values below are already converted. Since manual 3.1 the spacing is deliberately airier than the
+// Values below are already converted. Since manual 3.1 (between v0.0.3-alpha and v0.0.4-alpha) the spacing is deliberately airier than the
 // ReportLab edition: body 8.8 / 13.2 (spaceAfter 6), cards 8.2 / 12, cells 7.6 / 10.4 with 4 pt padding,
 // more space before headings. Gaps between top-level blocks are set in theme/filter/spacing.lua (TAIL/HEAD).
 

@@ -3,6 +3,16 @@
 All notable changes to the manual's content and tooling. Dates use DD/MM/YYYY.
 
 ## [Unreleased]
+- `AGENTS.md`: instructions for AI coding agents (layout, commands, content rules, how to prove a refactor leaves
+  the PDF unchanged, gotchas, git workflow); `CLAUDE.md` imports it.
+
+## v0.1 – 10/11/2026
+First public release on GitHub: the Detailed Guide, reference version Plasticity 26.2.0, 137 pages
+(`Plasticity_Manual_v0.1.pdf` attached to the release). Not application-tested; open items in
+`docs/review/unresolved.md`.
+
+- Published at github.com/leoperria/plasticity-manual: text and diagrams under CC BY-SA 4.0, tooling under MIT
+  (`LICENSE`, `LICENSE-CC-BY-SA-4.0.txt`); open to outside pull requests, reviewed by the code owner (`CODEOWNERS`).
 - Repository restructured for maintainability (10/11/2026); the manual's content is unchanged (generated Typst
   identical, every PDF page pixel-identical apart from the cover's build time):
   - `book/` holds the content (chapters, figures, metadata), `theme/` the design, `docs/` the contributor guides,
@@ -35,9 +45,9 @@ All notable changes to the manual's content and tooling. Dates use DD/MM/YYYY.
 - Tooling: `tools/build.py --edition`, `tools/check.py [chapters-dir]` (also reports missing images),
   breakable cards via `card-breakable`, card titles and labels kept with the following text.
 
-## V1 – 20/10/2026
+## v0.0.4-alpha – 20/10/2026 (formerly V1)
 First complete content edition of the former concise manual, covering Plasticity up to 2026.2 (removed from the repository on 10/11/2026).
-Earlier entries (1.0.0–3.0.0) record the tooling history that led to it.
+Earlier entries (v0.0.1-alpha to v0.0.3-alpha) record the tooling history that led to it.
 
 - Final check (20/10/2026):
   - Re-tagged to the earliest release notes: Move, Place, Box, Cylinder, Sphere, Import, Export, Export OBJ (1.3); circles (1.4); Rotate, Scale, rectangles, arcs (24.1); Alternative Duplicate back to 24.2.
@@ -61,13 +71,13 @@ Earlier entries (1.0.0–3.0.0) record the tooling history that led to it.
 - Diagrams replaced with exports of the original ReportLab drawings.
 - Unnumbered headings (`{-}`) supported; "Sources and accuracy notes" is unnumbered again.
 
-## 3.0.0 – 19/10/2026
+## v0.0.3-alpha – 19/10/2026 (formerly 3.0.0)
 - Sources moved to Markdown, built with Pandoc + Typst (no LaTeX needed).
 - Lua filter for keys, version tags, command cards, note boxes and tables; Typst template reproducing the previous layout.
 - Diagrams converted to SVG; `tools/build.py` (with `--watch`) and `tools/check.py`.
 
-## 2.0.0 – 19/10/2026
+## v0.0.2-alpha – 19/10/2026 (formerly 2.0.0)
 - LaTeX edition.
 
-## 1.0.0 – 19/10/2026
+## v0.0.1-alpha – 19/10/2026 (formerly 1.0.0)
 - First version (YAML + ReportLab): chapters 1–10 covering Plasticity up to 2026.1.
