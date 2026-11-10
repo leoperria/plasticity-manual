@@ -5,6 +5,9 @@ All notable changes to the manual's content and tooling. Dates use DD/MM/YYYY.
 ## [Unreleased]
 - `AGENTS.md`: instructions for AI coding agents (layout, commands, content rules, how to prove a refactor leaves
   the PDF unchanged, gotchas, git workflow); `CLAUDE.md` imports it.
+- First application test: Center Circle's Tab value is the diameter, with an unlabelled input (verified in
+  Plasticity 25.1.9). Chapters 4 and 10 updated; re-check in 26.2.0 and the Two-Point / Three-Point variants
+  remain open.
 
 ## v0.1 – 10/11/2026
 First public release on GitHub: the Detailed Guide, reference version Plasticity 26.2.0, 137 pages

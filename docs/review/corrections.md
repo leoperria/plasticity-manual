@@ -429,3 +429,21 @@ Files: `09p-practical-workflows.md` · old pages new
 
 - None added. The tables and step lists were enough, and a failure flowchart would show no documented behaviour beyond the list.
 
+## Application tests
+
+### 10/11/2026 – Center Circle size input (Plasticity 25.1.9)
+
+Test: new file, Length = Millimeter; Center Circle at the origin, [Tab], typed 10, confirmed; measured centre to rim.
+Result: the inline input has **no label**; its guide line runs rim to rim through the centre; the measured radius is
+**5.0 mm**, so the value is the **diameter**. Screenshots supplied by the maintainer. Tested in 25.1.9, which is
+older than the reference version 26.2.0: tagged `[25.1.9]{.tested}`, and a re-check in 26.2.0 stays open in
+`unresolved.md`. Two-Point and Three-Point Circle were not tested.
+
+- Ch 4, Center Circle card, step 3 – "Read the label of the input box first: the docs do not say whether it is a
+  radius or a diameter" → Center Circle takes the diameter, the input has no label; the other two variants are
+  still unknown.
+- Ch 4, Center Circle card, Common problems – "twice or half the expected size" → half the size: a radius was typed,
+  type double the value.
+- Ch 10, project step 5.1 – "check whether the field asks for radius or diameter" → type 10, the value is the diameter.
+- `unresolved.md`: chapter 4 circle item narrowed to the 26.2.0 re-check and the two other variants; chapter 10
+  item "10.2 Circle Tab field" removed.
