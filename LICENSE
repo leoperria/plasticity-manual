@@ -1,11 +1,11 @@
 This repository uses two licences.
 
 1. Manual content – Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
-   Applies to: chapters/, figures/, docs/, metadata.yaml, template/cover.svg and the generated PDF.
+   Applies to: book/ (chapters, figures, metadata.yaml), docs/, theme/cover.svg and the generated PDF.
    Full text: LICENSE-CC-BY-SA-4.0.txt (https://creativecommons.org/licenses/by-sa/4.0/legalcode)
 
 2. Tooling – MIT License
-   Applies to: tools/, filters/, template/manual.typ, Makefile and .github/.
+   Applies to: tools/, theme/ (except theme/cover.svg), Makefile and .github/.
    Full text below.
 
 "Plasticity" is a product of Plastic Software. This is an unofficial manual, not affiliated with

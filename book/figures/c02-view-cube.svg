@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- View cube: click a face, click it again for the opposite view, click an edge or corner, right-click for the menu. Style: see docs/diagram-style.md -->
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="120.5" height="124" rx="5"/>
+    <rect x="130.1" y="0.5" width="120.5" height="124" rx="5"/>
+    <rect x="259.7" y="0.5" width="120.5" height="124" rx="5"/>
+    <rect x="389.3" y="0.5" width="120.5" height="124" rx="5"/>
+  </g>
+  <polygon points="50.5,23.0 77.3,38.5 50.5,54.0 23.7,38.5" fill="#fbe7a6" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="50.5" y="40.5" font-size="6" font-weight="bold" fill="#1d1f24" text-anchor="middle">TOP</text>
+  <polygon points="23.7,38.5 50.5,54.0 50.5,85.0 23.7,69.5" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="37.1" y="63.8" font-size="6" font-weight="bold" fill="#1d1f24" text-anchor="middle">FRONT</text>
+  <polygon points="50.5,54.0 77.3,38.5 77.3,69.5 50.5,85.0" fill="#dfe2e9" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="63.9" y="63.8" font-size="6" font-weight="bold" fill="#1d1f24" text-anchor="middle">RIGHT</text>
+  <polygon points="50.5,23.0 77.3,38.5 50.5,54.0 23.7,38.5" fill="none" stroke="#e8a400" stroke-width="2.4" stroke-linejoin="round"/>
+  <polygon points="61.5,35.0 61.5,46.0 64.3,43.4 66.3,47.6 68.1,46.8 66.1,42.7 69.7,42.7" fill="#1d1f24" stroke="#ffffff" stroke-width="0.7" stroke-linejoin="round"/>
+  <text x="88.5" y="34" font-size="6.5" font-weight="bold" fill="#5b3df5">Top</text>
+  <text x="88.5" y="42" font-size="6" fill="#5b3df5">view</text>
+  <polygon points="180.1,23.0 206.9,38.5 180.1,54.0 153.3,38.5" fill="#fbe7a6" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="180.1" y="40.5" font-size="6" font-weight="bold" fill="#1d1f24" text-anchor="middle">TOP</text>
+  <polygon points="153.3,38.5 180.1,54.0 180.1,85.0 153.3,69.5" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="166.7" y="63.8" font-size="6" font-weight="bold" fill="#1d1f24" text-anchor="middle">FRONT</text>
+  <polygon points="180.1,54.0 206.9,38.5 206.9,69.5 180.1,85.0" fill="#dfe2e9" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="193.5" y="63.8" font-size="6" font-weight="bold" fill="#1d1f24" text-anchor="middle">RIGHT</text>
+  <polygon points="180.1,23.0 206.9,38.5 180.1,54.0 153.3,38.5" fill="none" stroke="#e8a400" stroke-width="2.4" stroke-linejoin="round"/>
+  <polygon points="191.1,35.0 191.1,46.0 193.9,43.4 195.9,47.6 197.7,46.8 195.7,42.7 199.3,42.7" fill="#1d1f24" stroke="#ffffff" stroke-width="0.7" stroke-linejoin="round"/>
+  <text x="193.1" y="28" font-size="6" fill="#6b7080">2×</text>
+  <text x="216.1" y="34" font-size="6.5" font-weight="bold" fill="#5b3df5">Bottom</text>
+  <text x="216.1" y="42" font-size="6" fill="#5b3df5">view</text>
+  <polygon points="309.7,23.0 336.5,38.5 309.7,54.0 282.9,38.5" fill="#eceef3" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="309.7" y="40.5" font-size="6" font-weight="bold" fill="#1d1f24" text-anchor="middle">TOP</text>
+  <polygon points="282.9,38.5 309.7,54.0 309.7,85.0 282.9,69.5" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="296.3" y="63.8" font-size="6" font-weight="bold" fill="#1d1f24" text-anchor="middle">FRONT</text>
+  <polygon points="309.7,54.0 336.5,38.5 336.5,69.5 309.7,85.0" fill="#dfe2e9" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="323.1" y="63.8" font-size="6" font-weight="bold" fill="#1d1f24" text-anchor="middle">RIGHT</text>
+  <line x1="282.9" y1="38.5" x2="309.7" y2="54.0" stroke="#e8a400" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="336.5" cy="69.5" r="3.5" fill="#f5c518" stroke="#1d1f24" stroke-width="0.6"/>
+  <text x="267.7" y="32" font-size="6" fill="#e8a400">edge</text>
+  <text x="342.5" y="71.5" font-size="6" fill="#e8a400">corner</text>
+  <polygon points="415.3,38.0 432.6,48.0 415.3,58.0 398.0,48.0" fill="#eceef3" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <polygon points="398.0,48.0 415.3,58.0 415.3,78.0 398.0,68.0" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <polygon points="415.3,58.0 432.6,48.0 432.6,68.0 415.3,78.0" fill="#dfe2e9" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <polygon points="417.3,48.0 417.3,59.0 420.1,56.4 422.1,60.6 423.9,59.8 421.9,55.7 425.5,55.7" fill="#1d1f24" stroke="#ffffff" stroke-width="0.7" stroke-linejoin="round"/>
+  <rect x="439.3" y="16" width="64" height="52" rx="2.5" fill="#ffffff" stroke="#1d1f24" stroke-width="0.8"/>
+  <text x="444.3" y="25" font-size="5.5" fill="#6b7080">right-click menu</text>
+  <text x="444.3" y="36" font-size="6" fill="#1d1f24">view commands …</text>
+  <text x="444.3" y="46" font-size="6" font-weight="bold" fill="#5b3df5">Home View</text>
+  <text x="444.3" y="56" font-size="6" fill="#1d1f24">Camera Roll</text>
+  <text x="444.3" y="66" font-size="6" fill="#1d1f24">Camera Rotation</text>
+  <g text-anchor="middle">
+    <text x="60.75" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Click a face</text>
+    <text x="60.75" y="117" font-size="6.5" fill="#6b7080">look straight at it</text>
+    <text x="190.35" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Click it again</text>
+    <text x="190.35" y="117" font-size="6.5" fill="#6b7080">flips to the opposite view</text>
+    <text x="319.95" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Edge or corner</text>
+    <text x="319.95" y="117" font-size="6.5" fill="#6b7080">view from that edge or corner</text>
+    <text x="449.55" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Right-click</text>
+    <text x="449.55" y="117" font-size="6.5" fill="#6b7080">Home View (26.2), roll, rotate</text>
+  </g>
+</svg>

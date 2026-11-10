@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Bridge Curve: pick start and end points / the bridge / Trim on (source curves cut back to the bridge).
+       Curve A (12,80)-(85,80), curve B (80,28)-(152,28); start (50,80), end (114,28). Style: see docs/diagram-style.md -->
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+
+  <!-- 1 two curves, start and end points -->
+  <g stroke="#1d1f24" stroke-width="1.2" fill="none">
+    <line x1="12" y1="80" x2="85" y2="80"/>
+    <line x1="80" y1="28" x2="152" y2="28"/>
+  </g>
+  <g fill="#f5c518" stroke="#1d1f24" stroke-width="0.6">
+    <circle cx="50" cy="80" r="3.5"/><circle cx="114" cy="28" r="3.5"/>
+  </g>
+  <text x="50" y="92" font-size="6" fill="#1d1f24" text-anchor="middle">start</text>
+  <text x="114" y="20" font-size="6" fill="#1d1f24" text-anchor="middle">end</text>
+
+  <!-- 2 the bridge (offset +173.1) -->
+  <g stroke="#1d1f24" stroke-width="1.2" fill="none">
+    <line x1="185.1" y1="80" x2="258.1" y2="80"/>
+    <line x1="253.1" y1="28" x2="325.1" y2="28"/>
+  </g>
+  <path d="M223.1,80 C253.1,80 257.1,28 287.1,28" fill="none" stroke="#5b3df5" stroke-width="1.8"/>
+  <g fill="#1d1f24" stroke="#ffffff" stroke-width="0.6">
+    <circle cx="223.1" cy="80" r="2"/><circle cx="287.1" cy="28" r="2"/>
+  </g>
+
+  <!-- 3 Trim on (offset +346.2) -->
+  <g stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2" fill="none">
+    <line x1="396.2" y1="80" x2="431.2" y2="80"/>
+    <line x1="426.2" y1="28" x2="460.2" y2="28"/>
+  </g>
+  <g stroke="#1d1f24" stroke-width="1.2" fill="none">
+    <line x1="358.2" y1="80" x2="396.2" y2="80"/>
+    <line x1="460.2" y1="28" x2="498.2" y2="28"/>
+  </g>
+  <path d="M396.2,80 C426.2,80 430.2,28 460.2,28" fill="none" stroke="#5b3df5" stroke-width="1.8"/>
+  <g fill="#1d1f24" stroke="#ffffff" stroke-width="0.6">
+    <circle cx="396.2" cy="80" r="2"/><circle cx="460.2" cy="28" r="2"/>
+  </g>
+  <text x="413.7" y="89" font-size="6" fill="#6b7080" text-anchor="middle">trimmed</text>
+  <text x="443.2" y="22" font-size="6" fill="#6b7080" text-anchor="middle">trimmed</text>
+
+  <g text-anchor="middle">
+    <text x="82" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Click a start and an end point</text>
+    <text x="82" y="117" font-size="6.5" fill="#6b7080">anywhere on a curve, edge or face</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">The bridge</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">a new curve, continuity set per end</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Trim on (Q)</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">curve beyond the bridge is trimmed</text>
+  </g>
+</svg>

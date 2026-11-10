@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Box selection: right-to-left (green) selects what the box touches; left-to-right (purple) only what is fully inside. Style: see docs/diagram-style.md -->
+  <defs>
+    <marker id="arrgr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 z" fill="#0f8a5f"/>
+    </marker>
+    <marker id="arrv" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 z" fill="#5b3df5"/>
+    </marker>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="250.5" height="124" rx="5"/>
+    <rect x="259.7" y="0.5" width="250.5" height="124" rx="5"/>
+  </g>
+  <rect x="78.5" y="22" width="104" height="60" fill="#e3f4ec" fill-opacity="0.8" stroke="#0f8a5f" stroke-width="1" stroke-dasharray="4 2"/>
+  <circle cx="120.5" cy="52" r="14" fill="#ffffff" stroke="#e8a400" stroke-width="3"/>
+  <rect x="166.5" y="36" width="32" height="30" fill="#ffffff" stroke="#e8a400" stroke-width="3"/>
+  <polygon points="34.5,70.0 52.5,38.0 70.5,70.0" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <line x1="182.5" y1="89" x2="84.5" y2="89" stroke="#0f8a5f" stroke-width="1.2" marker-end="url(#arrgr)"/>
+  <polygon points="77.5,81.0 77.5,92.0 80.3,89.4 82.3,93.6 84.1,92.8 82.1,88.7 85.7,88.7" fill="#1d1f24" stroke="#ffffff" stroke-width="0.7" stroke-linejoin="round"/>
+  <text x="81.5" y="18" font-size="6" fill="#0f8a5f">green box</text>
+  <text x="14.5" y="26" font-size="6" fill="#6b7080">outside</text>
+  <rect x="337.7" y="22" width="104" height="60" fill="#efecff" fill-opacity="0.8" stroke="#5b3df5" stroke-width="1" stroke-dasharray="4 2"/>
+  <circle cx="379.7" cy="52" r="14" fill="#ffffff" stroke="#e8a400" stroke-width="3"/>
+  <rect x="425.7" y="36" width="32" height="30" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <polygon points="293.7,70.0 311.7,38.0 329.7,70.0" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2" stroke-linejoin="round"/>
+  <line x1="337.7" y1="89" x2="435.7" y2="89" stroke="#5b3df5" stroke-width="1.2" marker-end="url(#arrv)"/>
+  <polygon points="440.7,81.0 440.7,92.0 443.5,89.4 445.5,93.6 447.3,92.8 445.3,88.7 448.9,88.7" fill="#1d1f24" stroke="#ffffff" stroke-width="0.7" stroke-linejoin="round"/>
+  <text x="340.7" y="18" font-size="6" fill="#5b3df5">purple box</text>
+  <text x="273.7" y="26" font-size="6" fill="#6b7080">outside</text>
+  <g text-anchor="middle">
+    <text x="125.75" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Drag from right to left</text>
+    <text x="125.75" y="117" font-size="6.5" fill="#6b7080">selects everything the box touches</text>
+    <text x="384.95" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Drag from left to right</text>
+    <text x="384.95" y="117" font-size="6.5" fill="#6b7080">selects only what is completely inside</text>
+  </g>
+</svg>

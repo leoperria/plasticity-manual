@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Extend Sheet: Linear vs Natural shape. Side view, the outside edge is seen end-on. Style: see docs/diagram-style.md -->
+  <defs>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+  <text x="8" y="13" font-size="6" fill="#6b7080">side view</text>
+  <path d="M13.82,82.28 L15.50,80.18 L17.23,78.12 L19.01,76.11 L20.84,74.14 L22.72,72.22 L24.64,70.34 L26.61,68.51 L28.62,66.73 L30.68,65.00 L32.78,63.32 L34.92,61.69 L37.09,60.11 L39.31,58.59 L41.56,57.12 L43.85,55.71 L46.17,54.36 L48.52,53.06 L50.90,51.82 L53.32,50.63 L55.76,49.51 L58.23,48.45 L60.72,47.44 L63.24,46.50 L65.78,45.62 L68.34,44.81 L70.92,44.05 L73.52,43.36 L76.13,42.73 L78.76,42.17 L81.40,41.67" fill="none" stroke="#1d1f24" stroke-width="1.6"/>
+  <circle cx="81.40" cy="41.67" r="3.5" fill="#f5c518" stroke="#1d1f24" stroke-width="0.6"/>
+  <text x="87.40" y="44.67" font-size="6" fill="#9a6d00">outside edge</text>
+  <text x="26.62" y="78.73" font-size="6" fill="#1d1f24">sheet</text>
+  <path d="M186.92,82.28 L188.60,80.18 L190.33,78.12 L192.11,76.11 L193.94,74.14 L195.82,72.22 L197.74,70.34 L199.71,68.51 L201.72,66.73 L203.78,65.00 L205.88,63.32 L208.02,61.69 L210.19,60.11 L212.41,58.59 L214.66,57.12 L216.95,55.71 L219.27,54.36 L221.62,53.06 L224.00,51.82 L226.42,50.63 L228.86,49.51 L231.33,48.45 L233.82,47.44 L236.34,46.50 L238.88,45.62 L241.44,44.81 L244.02,44.05 L246.62,43.36 L249.23,42.73 L251.86,42.17 L254.50,41.67" fill="none" stroke="#1d1f24" stroke-width="1.6"/>
+  <line x1="254.50" y1="41.67" x2="305.71" y2="32.64" stroke="#5b3df5" stroke-width="1.8"/>
+  <circle cx="254.50" cy="41.67" r="1.8" fill="#1d1f24"/>
+  <path d="M360.02,82.28 L361.70,80.18 L363.43,78.12 L365.21,76.11 L367.04,74.14 L368.92,72.22 L370.84,70.34 L372.81,68.51 L374.82,66.73 L376.88,65.00 L378.98,63.32 L381.12,61.69 L383.29,60.11 L385.51,58.59 L387.76,57.12 L390.05,55.71 L392.37,54.36 L394.72,53.06 L397.10,51.82 L399.52,50.63 L401.96,49.51 L404.43,48.45 L406.92,47.44 L409.44,46.50 L411.98,45.62 L414.54,44.81 L417.12,44.05 L419.72,43.36 L422.33,42.73 L424.96,42.17 L427.60,41.67" fill="none" stroke="#1d1f24" stroke-width="1.6"/>
+  <path d="M427.60,41.67 L429.62,41.33 L431.64,41.04 L433.68,40.77 L435.71,40.55 L437.75,40.36 L439.79,40.22 L441.84,40.11 L443.88,40.04 L445.93,40.00 L447.98,40.01 L450.03,40.05 L452.07,40.13 L454.12,40.25 L456.16,40.41 L458.20,40.60 L460.23,40.84 L462.26,41.11 L464.29,41.42 L466.31,41.76 L468.32,42.14 L470.32,42.57 L472.32,43.02 L474.30,43.52 L476.28,44.05 L478.25,44.62 L480.20,45.23 L482.15,45.87 L484.08,46.55 L486.00,47.26 L487.91,48.01" fill="none" stroke="#5b3df5" stroke-width="1.8"/>
+  <circle cx="427.60" cy="41.67" r="1.8" fill="#1d1f24"/>
+  <g text-anchor="middle">
+    <text x="82.0" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Before</text>
+    <text x="82.0" y="117" font-size="6.5" fill="#6b7080">select the outside edge, drag the yellow dot</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Linear</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">straight on, keeping the tangent direction</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Natural</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">continues the curvature of the surface</text>
+  </g>
+</svg>

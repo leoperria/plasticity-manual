@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Place: reference point on the original, then destination points (side view). Style: see docs/diagram-style.md -->
+  <defs>
+    <marker id="v" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 z" fill="#5b3df5"/>
+    </marker>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+  <text x="8" y="13" font-size="6" fill="#6b7080">side view</text>
+  <path d="M75,70 L75,54 L71,54 L71,48 L93,48 L93,54 L89,54 L89,70 Z" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <circle cx="82" cy="70" r="3.2" fill="#f5c518" stroke="#1d1f24" stroke-width="0.6"/>
+  <text x="82" y="82" font-size="6" fill="#9a6d00" text-anchor="middle">reference point</text>
+  <text x="98" y="52" font-size="6" fill="#1d1f24">original</text>
+  <rect x="200.1" y="70" width="110" height="18" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M248.1,70 L248.1,54 L244.1,54 L244.1,48 L266.1,48 L266.1,54 L262.1,54 L262.1,70 Z" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <circle cx="255.1" cy="70" r="3.2" fill="#f5c518" stroke="#1d1f24" stroke-width="0.6"/>
+  <text x="272" y="62" font-size="6" fill="#9a6d00">destination</text>
+  <text x="240" y="44" font-size="6" fill="#5b3df5" text-anchor="end">copy</text>
+  <rect x="373.2" y="70" width="110" height="18" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M388.2,70 L388.2,54 L384.2,54 L384.2,48 L406.2,48 L406.2,54 L402.2,54 L402.2,70 Z" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <circle cx="395.2" cy="70" r="3.2" fill="#f5c518" stroke="#1d1f24" stroke-width="0.6"/>
+  <path d="M421.2,70 L421.2,54 L417.2,54 L417.2,48 L439.2,48 L439.2,54 L435.2,54 L435.2,70 Z" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <circle cx="428.2" cy="70" r="3.2" fill="#f5c518" stroke="#1d1f24" stroke-width="0.6"/>
+  <path d="M454.2,70 L454.2,54 L450.2,54 L450.2,48 L472.2,48 L472.2,54 L468.2,54 L468.2,70 Z" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <circle cx="461.2" cy="70" r="3.2" fill="#f5c518" stroke="#1d1f24" stroke-width="0.6"/>
+  <g text-anchor="middle">
+    <text x="82.0" y="106" font-size="8" font-weight="bold" fill="#1d1f24">1 Pick the reference point</text>
+    <text x="82.0" y="117" font-size="6.5" fill="#6b7080">click a point on the original</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">2 Click a destination</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">the copy’s reference point lands there</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">3 Keep clicking</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">one copy per click; Esc to finish</text>
+  </g>
+</svg>

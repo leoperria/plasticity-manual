@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Curve Array alignment: Parallel keeps the original's orientation, Normal turns copies with the path. Style: see docs/diagram-style.md -->
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="250.5" height="124" rx="5"/>
+    <rect x="259.7" y="0.5" width="250.5" height="124" rx="5"/>
+  </g>
+  <path d="M65.13,73 A70,70 0 0 1 186.37,73" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2" transform="translate(65.13 73) rotate(-60)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(84.61 51.37) rotate(-60)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(111.2 39.53) rotate(-60)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(140.3 39.53) rotate(-60)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(166.89 51.37) rotate(-60)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(186.37 73) rotate(-60)"/>
+  <text x="61.13" y="85" font-size="6" fill="#1d1f24" text-anchor="middle">original</text>
+  <text x="125.75" y="52" font-size="6" fill="#1d1f24" text-anchor="middle">path</text>
+  <path d="M324.33,73 A70,70 0 0 1 445.57,73" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2" transform="translate(324.33 73) rotate(-60)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(343.81 51.37) rotate(-36)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(370.4 39.53) rotate(-12)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(399.5 39.53) rotate(12)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(426.09 51.37) rotate(36)"/>
+  <polygon points="-4,0 4,0 4,-8 7,-8 0,-15 -7,-8 -4,-8" fill="#efecff" stroke="#5b3df5" stroke-width="1.4" transform="translate(445.57 73) rotate(60)"/>
+  <text x="320.33" y="85" font-size="6" fill="#1d1f24" text-anchor="middle">original</text>
+  <text x="384.95" y="52" font-size="6" fill="#1d1f24" text-anchor="middle">path</text>
+  <g text-anchor="middle">
+    <text x="125.75" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Parallel</text>
+    <text x="125.75" y="117" font-size="6.5" fill="#6b7080">the copies keep the original’s orientation</text>
+    <text x="384.95" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Normal</text>
+    <text x="384.95" y="117" font-size="6.5" fill="#6b7080">the copies turn with the path (its local normal frame)</text>
+  </g>
+</svg>

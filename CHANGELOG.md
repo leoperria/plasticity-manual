@@ -3,6 +3,15 @@
 All notable changes to the manual's content and tooling. Dates use DD/MM/YYYY.
 
 ## [Unreleased]
+- Repository restructured for maintainability (10/11/2026); the manual's content is unchanged (generated Typst
+  identical, every PDF page pixel-identical apart from the cover's build time):
+  - `book/` holds the content (chapters, figures, metadata), `theme/` the design, `docs/` the contributor guides,
+    `docs/review/` the correction plan, correction log and unresolved items.
+  - Chapter files numbered after their chapter (`09p` → `10`, `10` → `11`); every figure named `cNN-name.svg`.
+  - Typst template split into `template.typ` (pandoc), `style.typ`, `components.typ` and `palette.typ`;
+    version-tag colours moved to `theme/versions.json`, read by both Typst and `tools/check.py`.
+  - Lua filter split into modules (`spans`, `cards`, `blocks`, `spacing`, `util`); tools share `tools/common.py`.
+  - README shortened; markup reference moved to `docs/writing-guide.md`; new `docs/build-system.md`.
 - Concise edition removed (10/11/2026): the former extended edition (“Detailed Guide”) is now the only manual.
   Repository reorganised: chapters in `chapters/`, all diagrams in `figures/`, project docs (writing guide,
   diagram style, correction plan, correction log, unresolved items) in `docs/`; `releases/v1/` deleted;

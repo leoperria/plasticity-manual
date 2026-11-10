@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Extend Curve, Shape option. Redrawn from the official image /img/extend-curve-shape.svg on the
+       Extend Curve page (doc.plasticity.xyz/sketch/extend-curve): same curve and extensions, scaled 0.36.
+       Black = original curve, violet = extension, dot = the extended end point.
+       Five panels (one per Shape value), 94.96 wide, 8.6 apart. Style: see docs/diagram-style.md -->
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.50" y="0.5" width="94.96" height="124" rx="5"/>
+    <rect x="104.06" y="0.5" width="94.96" height="124" rx="5"/>
+    <rect x="207.62" y="0.5" width="94.96" height="124" rx="5"/>
+    <rect x="311.18" y="0.5" width="94.96" height="124" rx="5"/>
+    <rect x="414.74" y="0.5" width="94.96" height="124" rx="5"/>
+  </g>
+
+  <!-- Natural -->
+  <path d="M84.94,18.20 C84.94,18.20 77.04,18.39 67.05,17.58 C60.94,17.09 49.38,16.62 42.22,17.86 C34.66,19.16 28.32,23.02 23.71,26.81 C17.65,31.78 11.30,39.19 11.16,46.80" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M11.16,46.80 C11.02,54.41 17.69,63.46 37.34,69.84" fill="none" stroke="#5b3df5" stroke-width="1.8"/>
+  <circle cx="11.16" cy="46.80" r="2" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <!-- Linear -->
+  <path d="M188.50,18.20 C188.50,18.20 180.61,18.39 170.61,17.58 C164.50,17.09 152.94,16.62 145.78,17.86 C138.22,19.16 131.88,23.02 127.27,26.81 C121.21,31.78 114.86,39.19 114.72,46.80" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M114.72,46.80 C114.58,54.41 114.72,83.38 114.72,83.38" fill="none" stroke="#5b3df5" stroke-width="1.8"/>
+  <circle cx="114.72" cy="46.80" r="2" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <!-- Soft -->
+  <path d="M292.06,18.20 C292.06,18.20 284.17,18.39 274.17,17.58 C268.06,17.09 256.50,16.62 249.34,17.86 C241.78,19.16 235.44,23.02 230.83,26.81 C224.77,31.78 218.42,39.19 218.28,46.80" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M218.28,46.80 C218.56,55.51 220.26,83.29 220.26,83.29" fill="none" stroke="#5b3df5" stroke-width="1.8"/>
+  <circle cx="218.28" cy="46.80" r="2" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <!-- Reflective -->
+  <path d="M395.62,18.20 C395.62,18.20 387.73,18.39 377.73,17.58 C371.62,17.09 360.06,16.62 352.90,17.86 C345.34,19.16 339.00,23.02 334.39,26.81 C328.33,31.78 321.98,39.19 321.84,46.80" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M321.84,46.80 C321.70,54.41 330.22,66.92 345.03,73.52" fill="none" stroke="#5b3df5" stroke-width="1.8"/>
+  <circle cx="321.84" cy="46.80" r="2" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <!-- Arc -->
+  <path d="M499.18,18.20 C499.18,18.20 491.29,18.39 481.29,17.58 C475.18,17.09 463.62,16.62 456.46,17.86 C448.90,19.16 442.56,23.02 437.95,26.81 C431.89,31.78 425.54,39.19 425.40,46.80" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M425.40,46.80 C425.26,54.41 432.10,60.41 438.65,60.96 C445.20,61.50 453.15,57.84 454.47,46.86" fill="none" stroke="#5b3df5" stroke-width="1.8"/>
+  <circle cx="425.40" cy="46.80" r="2" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+
+  <g text-anchor="middle">
+    <text x="47.98" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Natural</text>
+    <text x="47.98" y="117" font-size="6.5" fill="#6b7080">continues the path</text>
+    <text x="151.54" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Linear</text>
+    <text x="151.54" y="117" font-size="6.5" fill="#6b7080">straight, same tangent</text>
+    <text x="255.10" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Soft</text>
+    <text x="255.10" y="117" font-size="6.5" fill="#6b7080">smooth, gradual blend</text>
+    <text x="358.66" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Reflective</text>
+    <text x="358.66" y="117" font-size="6.5" fill="#6b7080">mirrors the curvature</text>
+    <text x="462.22" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Arc</text>
+    <text x="462.22" y="117" font-size="6.5" fill="#6b7080">a circular arc</text>
+  </g>
+</svg>
