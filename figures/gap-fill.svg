@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Gap fill (Offset Face Loop, Offset Edge, Offset Planar Curve): how convex corners are filled.
+       Grey outline = original, violet = offset, dots = where one edge ends and the next begins. -->
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+
+  <!-- original outlines (cx = 82 / 255.1 / 428.2, cy = 52, half-size 25) -->
+  <g fill="#ffffff" stroke="#1d1f24" stroke-width="1.2">
+    <rect x="57" y="27" width="50" height="50"/>
+    <rect x="230.1" y="27" width="50" height="50"/>
+    <rect x="403.2" y="27" width="50" height="50"/>
+  </g>
+
+  <!-- Round: offset 11 with arcs at the corners -->
+  <path d="M57,16 L107,16 A11,11 0 0 1 118,27 L118,77 A11,11 0 0 1 107,88 L57,88 A11,11 0 0 1 46,77 L46,27 A11,11 0 0 1 57,16 Z"
+        fill="none" stroke="#5b3df5" stroke-width="1.6"/>
+  <g fill="#1d1f24" stroke="#ffffff" stroke-width="0.6">
+    <circle cx="57" cy="16" r="2"/><circle cx="107" cy="16" r="2"/>
+    <circle cx="118" cy="27" r="2"/><circle cx="118" cy="77" r="2"/>
+    <circle cx="107" cy="88" r="2"/><circle cx="57" cy="88" r="2"/>
+    <circle cx="46" cy="77" r="2"/><circle cx="46" cy="27" r="2"/>
+  </g>
+
+  <!-- Linear: straight corners, extensions are separate edges -->
+  <rect x="219.1" y="16" width="72" height="72" fill="none" stroke="#5b3df5" stroke-width="1.6"/>
+  <g fill="#1d1f24" stroke="#ffffff" stroke-width="0.6">
+    <circle cx="219.1" cy="16" r="2"/><circle cx="291.1" cy="16" r="2"/>
+    <circle cx="291.1" cy="88" r="2"/><circle cx="219.1" cy="88" r="2"/>
+    <circle cx="230.1" cy="16" r="2"/><circle cx="280.1" cy="16" r="2"/>
+    <circle cx="291.1" cy="27" r="2"/><circle cx="291.1" cy="77" r="2"/>
+    <circle cx="280.1" cy="88" r="2"/><circle cx="230.1" cy="88" r="2"/>
+    <circle cx="219.1" cy="77" r="2"/><circle cx="219.1" cy="27" r="2"/>
+  </g>
+
+  <!-- Natural: straight corners, continuous edges -->
+  <rect x="392.2" y="16" width="72" height="72" fill="none" stroke="#5b3df5" stroke-width="1.6"/>
+  <g fill="#1d1f24" stroke="#ffffff" stroke-width="0.6">
+    <circle cx="392.2" cy="16" r="2"/><circle cx="464.2" cy="16" r="2"/>
+    <circle cx="464.2" cy="88" r="2"/><circle cx="392.2" cy="88" r="2"/>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="82" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Round</text>
+    <text x="82" y="117" font-size="6.5" fill="#6b7080">rounded corners</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Linear</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">straight corners, edges may be split</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Natural</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">straight corners, continuous edges</text>
+  </g>
+</svg>

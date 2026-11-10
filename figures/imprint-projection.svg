@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Imprint Curve-Body, Method: Vector. Side view: walls in black, curve (seen edge-on) in violet,
+       projection as grey dotted arrows, new edges in green. -->
+  <defs>
+    <marker id="g" markerWidth="5" markerHeight="5" refX="4.5" refY="2.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L5,2.5 L0,5 z" fill="#6b7080"/>
+    </marker>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="120.5" height="124" rx="5"/>
+    <rect x="130.1" y="0.5" width="120.5" height="124" rx="5"/>
+    <rect x="259.7" y="0.5" width="120.5" height="124" rx="5"/>
+    <rect x="389.3" y="0.5" width="120.5" height="124" rx="5"/>
+  </g>
+  <text x="8" y="13" font-size="6" fill="#6b7080">side view · Method: Vector</text>
+
+  <g fill="#ffffff" stroke="#1d1f24" stroke-width="1">
+    <!-- 1 bidirectional off (cx = 60.75) -->
+    <rect x="16.75" y="28" width="7" height="58"/><rect x="97.75" y="28" width="7" height="58"/>
+    <!-- 2 bidirectional on (cx = 190.35) -->
+    <rect x="146.35" y="28" width="7" height="58"/><rect x="227.35" y="28" width="7" height="58"/>
+    <!-- 3 hide occlusion off (cx = 319.95) -->
+    <rect x="301.95" y="28" width="7" height="58"/><rect x="346.95" y="28" width="7" height="58"/>
+    <!-- 4 hide occlusion on (cx = 449.55) -->
+    <rect x="431.55" y="28" width="7" height="58"/><rect x="476.55" y="28" width="7" height="58"/>
+  </g>
+
+  <g stroke="#6b7080" stroke-width="0.8" stroke-dasharray="1.5 1.5" marker-end="url(#g)">
+    <line x1="63" y1="50" x2="96" y2="50"/><line x1="63" y1="64" x2="96" y2="64"/>
+    <line x1="192.5" y1="50" x2="225.5" y2="50"/><line x1="192.5" y1="64" x2="225.5" y2="64"/>
+    <line x1="188" y1="50" x2="155" y2="50"/><line x1="188" y1="64" x2="155" y2="64"/>
+    <line x1="282" y1="50" x2="345" y2="50"/><line x1="282" y1="64" x2="345" y2="64"/>
+    <line x1="411.6" y1="50" x2="429.6" y2="50"/><line x1="411.6" y1="64" x2="429.6" y2="64"/>
+  </g>
+
+  <g stroke="#5b3df5" stroke-width="2.4">
+    <line x1="60.75" y1="45" x2="60.75" y2="69"/>
+    <line x1="190.35" y1="45" x2="190.35" y2="69"/>
+    <line x1="279.95" y1="45" x2="279.95" y2="69"/>
+    <line x1="409.55" y1="45" x2="409.55" y2="69"/>
+  </g>
+  <g font-size="6" fill="#5b3df5" text-anchor="middle">
+    <text x="60.75" y="40">curve</text><text x="190.35" y="40">curve</text>
+    <text x="279.95" y="40">curve</text><text x="409.55" y="40">curve</text>
+  </g>
+
+  <g stroke="#0f8a5f" stroke-width="3">
+    <line x1="97.75" y1="45" x2="97.75" y2="69"/>
+    <line x1="227.35" y1="45" x2="227.35" y2="69"/><line x1="153.35" y1="45" x2="153.35" y2="69"/>
+    <line x1="301.95" y1="45" x2="301.95" y2="69"/><line x1="346.95" y1="45" x2="346.95" y2="69"/>
+    <line x1="431.55" y1="45" x2="431.55" y2="69"/>
+  </g>
+  <text x="60.75" y="96" font-size="6" fill="#0f8a5f" text-anchor="middle">new edges in green</text>
+
+  <g text-anchor="middle">
+    <text x="60.75" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Bidirectional off</text>
+    <text x="60.75" y="117" font-size="6.5" fill="#6b7080">projects one way</text>
+    <text x="190.35" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Bidirectional on</text>
+    <text x="190.35" y="117" font-size="6.5" fill="#6b7080">projects both ways</text>
+    <text x="319.95" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Hide occlusion off</text>
+    <text x="319.95" y="117" font-size="6.5" fill="#6b7080">faces behind are imprinted too</text>
+    <text x="449.55" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Hide occlusion on</text>
+    <text x="449.55" y="117" font-size="6.5" fill="#6b7080">only the nearest face</text>
+  </g>
+</svg>

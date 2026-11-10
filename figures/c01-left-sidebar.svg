@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="150" viewBox="0 0 510.2362 150" font-family="DejaVu Sans">
+  <!-- Left sidebar: Outliner, Materials and Assets sections (schematic, not a screenshot). Style: see docs/DIAGRAM-STYLE.md -->
+  <defs>
+    <marker id="arrv" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 z" fill="#5b3df5"/>
+    </marker>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="149" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="149" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="149" rx="5"/>
+  </g>
+  <rect x="8.5" y="8" width="147" height="14" rx="2.5" fill="#1d1f24"/>
+  <text x="14.5" y="17.6" font-size="7" font-weight="bold" fill="#ffffff">Outliner</text>
+  <circle cx="145.5" cy="14.6" r="2.6" fill="none" stroke="#ffffff" stroke-width="0.8"/>
+  <line x1="147.5" y1="16.6" x2="150.0" y2="19" stroke="#ffffff" stroke-width="0.8"/>
+  <text x="106.5" y="31" font-size="5.5" fill="#6b7080">search, Ctrl+F</text>
+  <path d="M13.5,37.5 l3,3.6 l3,-3.6 z" fill="#6b7080"/>
+  <text x="22.5" y="42" font-size="6.5" font-weight="bold" fill="#1d1f24">Solids</text>
+  <circle cx="25.5" cy="51.3" r="2.4" fill="#c84b4b"/>
+  <text x="30.5" y="53.5" font-size="6.5" fill="#1d1f24">Box.000</text>
+  <ellipse cx="121.5" cy="51.3" rx="3.2" ry="1.9" fill="none" stroke="#6b7080" stroke-width="0.7"/>
+  <circle cx="121.5" cy="51.3" r="0.9" fill="#6b7080"/>
+  <circle cx="132.5" cy="51.3" r="2.6" fill="none" stroke="#6b7080" stroke-width="0.7"/>
+  <line x1="130.7" y1="53.1" x2="134.3" y2="49.5" stroke="#6b7080" stroke-width="0.7"/>
+  <rect x="141.0" y="50.3" width="5" height="3.8" rx="0.6" fill="#6b7080"/>
+  <path d="M142.1,50.3 v-1.2 a1.4,1.4 0 0 1 2.8,0 v1.2" fill="none" stroke="#6b7080" stroke-width="0.7"/>
+  <circle cx="25.5" cy="62.8" r="2.4" fill="#3d7fd6"/>
+  <text x="30.5" y="65.0" font-size="6.5" fill="#1d1f24">Extruded.000</text>
+  <ellipse cx="121.5" cy="62.8" rx="3.2" ry="1.9" fill="none" stroke="#6b7080" stroke-width="0.7"/>
+  <circle cx="121.5" cy="62.8" r="0.9" fill="#6b7080"/>
+  <circle cx="132.5" cy="62.8" r="2.6" fill="none" stroke="#6b7080" stroke-width="0.7"/>
+  <line x1="130.7" y1="64.6" x2="134.3" y2="61.0" stroke="#6b7080" stroke-width="0.7"/>
+  <rect x="141.0" y="61.8" width="5" height="3.8" rx="0.6" fill="#6b7080"/>
+  <path d="M142.1,61.8 v-1.2 a1.4,1.4 0 0 1 2.8,0 v1.2" fill="none" stroke="#6b7080" stroke-width="0.7"/>
+  <path d="M13.5,72.0 l3,3.6 l3,-3.6 z" fill="#6b7080"/>
+  <text x="22.5" y="76.5" font-size="6.5" font-weight="bold" fill="#1d1f24">Curves</text>
+  <circle cx="25.5" cy="85.8" r="2.4" fill="#888888"/>
+  <text x="30.5" y="88.0" font-size="6.5" fill="#1d1f24">Line.000</text>
+  <ellipse cx="121.5" cy="85.8" rx="3.2" ry="1.9" fill="none" stroke="#6b7080" stroke-width="0.7"/>
+  <circle cx="121.5" cy="85.8" r="0.9" fill="#6b7080"/>
+  <circle cx="132.5" cy="85.8" r="2.6" fill="none" stroke="#6b7080" stroke-width="0.7"/>
+  <line x1="130.7" y1="87.6" x2="134.3" y2="84.0" stroke="#6b7080" stroke-width="0.7"/>
+  <rect x="141.0" y="84.8" width="5" height="3.8" rx="0.6" fill="#6b7080"/>
+  <path d="M142.1,84.8 v-1.2 a1.4,1.4 0 0 1 2.8,0 v1.2" fill="none" stroke="#6b7080" stroke-width="0.7"/>
+  <path d="M13.5,95.0 l3,3.6 l3,-3.6 z" fill="#6b7080"/>
+  <text x="22.5" y="99.5" font-size="6.5" font-weight="bold" fill="#1d1f24">Planes</text>
+  <text x="30.5" y="111.0" font-size="6.5" fill="#1d1f24">Custom plane 0</text>
+  <text x="155.5" y="120.5" font-size="5.5" fill="#6b7080" text-anchor="end">hide · disable · lock</text>
+  <text x="14.5" y="120.5" font-size="5.5" fill="#6b7080">dot = material</text>
+  <rect x="181.6" y="8" width="147" height="14" rx="2.5" fill="#1d1f24"/>
+  <text x="187.6" y="17.6" font-size="7" font-weight="bold" fill="#ffffff">Materials</text>
+  <text x="187.6" y="36" font-size="6.5" font-weight="bold" fill="#1d1f24">Used Materials</text>
+  <circle cx="197.6" cy="49" r="6.5" fill="#c84b4b" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="217.6" cy="49" r="6.5" fill="#3d7fd6" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="237.6" cy="49" r="6.5" fill="#888888" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="257.6" cy="49" r="6.5" fill="#e0c060" stroke="#ffffff" stroke-width="1"/>
+  <text x="187.6" y="66" font-size="5.5" fill="#6b7080">right-click: Select All with This Material</text>
+  <text x="187.6" y="78" font-size="6.5" font-weight="bold" fill="#1d1f24">Materials Library</text>
+  <rect x="192.6" y="84" width="22" height="16" rx="2" fill="#b5a042" stroke="#d9dbe3" stroke-width="0.6"/>
+  <text x="203.6" y="107" font-size="5.5" fill="#1d1f24" text-anchor="middle">Brass</text>
+  <rect x="226.6" y="84" width="22" height="16" rx="2" fill="#c9ccd2" stroke="#d9dbe3" stroke-width="0.6"/>
+  <text x="237.6" y="107" font-size="5.5" fill="#1d1f24" text-anchor="middle">Chrome</text>
+  <rect x="260.6" y="84" width="22" height="16" rx="2" fill="#3a3a3c" stroke="#d9dbe3" stroke-width="0.6"/>
+  <text x="271.6" y="107" font-size="5.5" fill="#1d1f24" text-anchor="middle">Rubber</text>
+  <rect x="294.6" y="84" width="22" height="16" rx="2" fill="#a9a59c" stroke="#d9dbe3" stroke-width="0.6"/>
+  <text x="305.6" y="107" font-size="5.5" fill="#1d1f24" text-anchor="middle">Concrete</text>
+  <text x="187.6" y="119" font-size="5.5" fill="#6b7080">physical materials: view them in Render Mode</text>
+  <rect x="354.7" y="8" width="147" height="14" rx="2.5" fill="#1d1f24"/>
+  <text x="360.7" y="17.6" font-size="7" font-weight="bold" fill="#ffffff">Assets</text>
+  <rect x="360.7" y="28" width="58" height="12" rx="2.5" fill="#ffffff" stroke="#5b3df5" stroke-width="0.8"/>
+  <text x="389.7" y="36.2" font-size="6" fill="#5b3df5" text-anchor="middle">Add Asset Pack</text>
+  <text x="360.7" y="53" font-size="6.5" font-weight="bold" fill="#1d1f24">parts.plasticitypack</text>
+  <rect x="360.7" y="60" width="34" height="25" rx="2" fill="#ffffff" stroke="#d9dbe3" stroke-width="0.8"/>
+  <rect x="400.7" y="60" width="34" height="25" rx="2" fill="#ffffff" stroke="#d9dbe3" stroke-width="0.8"/>
+  <rect x="360.7" y="90" width="34" height="25" rx="2" fill="#ffffff" stroke="#d9dbe3" stroke-width="0.8"/>
+  <rect x="400.7" y="90" width="34" height="25" rx="2" fill="#ffffff" stroke="#d9dbe3" stroke-width="0.8"/>
+  <circle cx="377.7" cy="72.5" r="7" fill="#dfe2e9" stroke="#1d1f24" stroke-width="0.9"/>
+  <rect x="409.7" y="66" width="16" height="13" fill="#dfe2e9" stroke="#1d1f24" stroke-width="0.9"/>
+  <polygon points="377.7,94.0 387.7,110.0 367.7,110.0" fill="#dfe2e9" stroke="#1d1f24" stroke-width="0.9"/>
+  <rect x="407.7" y="99" width="20" height="7" rx="3.5" fill="#dfe2e9" stroke="#1d1f24" stroke-width="0.9"/>
+  <rect x="400.7" y="60" width="34" height="25" rx="2" fill="none" stroke="#e8a400" stroke-width="2"/>
+  <path d="M436.7,72 C466.7,72 476.7,90 496.7,94" fill="none" stroke="#5b3df5" stroke-width="1.2" marker-end="url(#arrv)"/>
+  <text x="450.7" y="110" font-size="5.5" fill="#5b3df5">drag into the</text>
+  <text x="450.7" y="117" font-size="5.5" fill="#5b3df5">viewport: Place</text>
+  <g text-anchor="middle">
+    <text x="82.0" y="131" font-size="8" font-weight="bold" fill="#1d1f24">Outliner</text>
+    <text x="82.0" y="142" font-size="6.5" fill="#6b7080">objects, groups, planes, states</text>
+    <text x="255.1" y="131" font-size="8" font-weight="bold" fill="#1d1f24">Materials</text>
+    <text x="255.1" y="142" font-size="6.5" fill="#6b7080">used materials and the library</text>
+    <text x="428.2" y="131" font-size="8" font-weight="bold" fill="#1d1f24">Assets</text>
+    <text x="428.2" y="142" font-size="6.5" fill="#6b7080">asset packs, drag in to place</text>
+  </g>
+</svg>

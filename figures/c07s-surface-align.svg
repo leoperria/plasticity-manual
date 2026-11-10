@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Surface Align: the target edge meets the reference edge; Symmetry Asymmetric vs Symmetric. Style: see docs/DIAGRAM-STYLE.md -->
+  <defs>
+    <marker id="v" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L6,3 L0,6 z" fill="#5b3df5"/></marker>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+  <text x="8" y="13" font-size="6" fill="#6b7080">top view</text>
+  <rect x="18.5" y="24" width="52" height="60" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M94.50,84.00 L93.86,81.50 L93.28,79.00 L92.75,76.50 L92.28,74.00 L91.86,71.50 L91.50,69.00 L91.19,66.50 L90.94,64.00 L90.75,61.50 L90.61,59.00 L90.53,56.50 L90.50,54.00 L90.53,51.50 L90.61,49.00 L90.75,46.50 L90.94,44.00 L91.19,41.50 L91.50,39.00 L91.86,36.50 L92.28,34.00 L92.75,31.50 L93.28,29.00 L93.86,26.50 L94.50,24.00 L146.50,24.00 L146.50,84.00 Z" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M94.50,84.00 L93.86,81.50 L93.28,79.00 L92.75,76.50 L92.28,74.00 L91.86,71.50 L91.50,69.00 L91.19,66.50 L90.94,64.00 L90.75,61.50 L90.61,59.00 L90.53,56.50 L90.50,54.00 L90.53,51.50 L90.61,49.00 L90.75,46.50 L90.94,44.00 L91.19,41.50 L91.50,39.00 L91.86,36.50 L92.28,34.00 L92.75,31.50 L93.28,29.00 L93.86,26.50 L94.50,24.00" fill="none" stroke="#e8a400" stroke-width="3" stroke-linecap="round"/>
+  <line x1="70.5" y1="24" x2="70.5" y2="84" stroke="#e8a400" stroke-width="3" stroke-linecap="round"/>
+  <text x="44.5" y="57" font-size="6" fill="#1d1f24" text-anchor="middle">reference</text>
+  <text x="120.5" y="57" font-size="6" fill="#1d1f24" text-anchor="middle">target</text>
+  <text x="94.5" y="17" font-size="6" fill="#9a6d00" text-anchor="middle">1 target edge</text>
+  <text x="70.5" y="94" font-size="6" fill="#9a6d00" text-anchor="middle">2 reference edge</text>
+  <rect x="191.6" y="24" width="52" height="60" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M243.60,84.00 L243.60,24.00 L319.60,24.00 L319.60,84.00 Z" fill="#efecff" stroke="none"/>
+  <path d="M267.60,84.00 L266.96,81.50 L266.38,79.00 L265.85,76.50 L265.38,74.00 L264.96,71.50 L264.60,69.00 L264.29,66.50 L264.04,64.00 L263.85,61.50 L263.71,59.00 L263.63,56.50 L263.60,54.00 L263.63,51.50 L263.71,49.00 L263.85,46.50 L264.04,44.00 L264.29,41.50 L264.60,39.00 L264.96,36.50 L265.38,34.00 L265.85,31.50 L266.38,29.00 L266.96,26.50 L267.60,24.00" fill="none" stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <path d="M243.6,84 L243.6,24 L319.6,24 M243.6,84 L319.6,84" fill="none" stroke="#5b3df5" stroke-width="1.6"/>
+  <line x1="319.6" y1="24" x2="319.6" y2="84" stroke="#1d1f24" stroke-width="1.2"/>
+  <line x1="261.6" y1="54" x2="250.6" y2="54" stroke="#5b3df5" stroke-width="1.2" marker-end="url(#v)"/>
+  <text x="217.6" y="57" font-size="6" fill="#1d1f24" text-anchor="middle">unchanged</text>
+  <text x="290.6" y="44" font-size="6" fill="#5b3df5" text-anchor="middle">target moves</text>
+  <path d="M364.70,24.00 L426.70,24.00 L426.70,84.00 L364.70,84.00 Z" fill="#efecff" stroke="none"/>
+  <path d="M426.70,24.00 L492.70,24.00 L492.70,84.00 L426.70,84.00 Z" fill="#efecff" stroke="none"/>
+  <line x1="416.7" y1="24" x2="416.7" y2="84" stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <path d="M440.70,84.00 L440.06,81.50 L439.48,79.00 L438.95,76.50 L438.48,74.00 L438.06,71.50 L437.70,69.00 L437.39,66.50 L437.14,64.00 L436.95,61.50 L436.81,59.00 L436.73,56.50 L436.70,54.00 L436.73,51.50 L436.81,49.00 L436.95,46.50 L437.14,44.00 L437.39,41.50 L437.70,39.00 L438.06,36.50 L438.48,34.00 L438.95,31.50 L439.48,29.00 L440.06,26.50 L440.70,24.00" fill="none" stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <path d="M364.7,24 L492.7,24 M364.7,84 L492.7,84 M426.7,24 L426.7,84" fill="none" stroke="#5b3df5" stroke-width="1.6"/>
+  <line x1="364.7" y1="24" x2="364.7" y2="84" stroke="#1d1f24" stroke-width="1.2"/>
+  <line x1="492.7" y1="24" x2="492.7" y2="84" stroke="#1d1f24" stroke-width="1.2"/>
+  <line x1="402.7" y1="54" x2="424.7" y2="54" stroke="#5b3df5" stroke-width="1.2" marker-end="url(#v)"/>
+  <line x1="452.7" y1="54" x2="428.7" y2="54" stroke="#5b3df5" stroke-width="1.2" marker-end="url(#v)"/>
+  <text x="426.7" y="17" font-size="6" fill="#5b3df5" text-anchor="middle">both move towards each other</text>
+  <g text-anchor="middle">
+    <text x="82.0" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Before</text>
+    <text x="82.0" y="117" font-size="6.5" fill="#6b7080">select the target edge, then the reference edge</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Asymmetric (default)</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">only the target adjusts to meet the reference</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Symmetric</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">both surfaces adjust (Symmetry option, 26.2)</text>
+  </g>
+</svg>

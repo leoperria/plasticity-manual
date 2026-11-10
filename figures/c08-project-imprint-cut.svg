@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Project vs Imprint vs Cut, same curve on the top face of a box (top view).
+       Project = separate new curve, body unchanged. Imprint = same body, face divided by new edges.
+       Cut = body cut along a surface made from the curve, pieces are separate bodies. cx = 82 / 255.1 / 428.2 -->
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+  <text x="8" y="12" font-size="6" fill="#6b7080">top view · same curve each time</text>
+
+  <!-- 1: Project -->
+  <rect x="32" y="24" width="100" height="56" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M70,24 C94,40 60,62 90,80" fill="none" stroke="#5b3df5" stroke-width="1.8"/>
+  <text x="37" y="56" font-size="6" fill="#5b3df5">new curve</text>
+  <text x="82" y="91" font-size="6" fill="#6b7080" text-anchor="middle">body unchanged, 1 top face</text>
+
+  <!-- 2: Imprint -->
+  <rect x="205.1" y="24" width="100" height="56" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <path d="M243.1,24 C267.1,40 233.1,62 263.1,80" fill="none" stroke="#0f8a5f" stroke-width="2.4"/>
+  <text x="222" y="55" font-size="6" fill="#1d1f24" text-anchor="middle">face 1</text>
+  <text x="287" y="55" font-size="6" fill="#1d1f24" text-anchor="middle">face 2</text>
+  <text x="255.1" y="91" font-size="6" fill="#0f8a5f" text-anchor="middle">new edge · still 1 body</text>
+
+  <!-- 3: Cut -->
+  <g fill="#efecff" stroke="#5b3df5" stroke-width="1.6">
+    <path d="M374.2,24 L412.2,24 C436.2,40 402.2,62 432.2,80 L374.2,80 Z"/>
+    <path d="M420.2,24 L482.2,24 L482.2,80 L440.2,80 C410.2,62 444.2,40 420.2,24 Z"/>
+  </g>
+  <text x="393" y="55" font-size="6" fill="#5b3df5" text-anchor="middle">body 1</text>
+  <text x="463" y="55" font-size="6" fill="#5b3df5" text-anchor="middle">body 2</text>
+  <text x="428.2" y="91" font-size="6" fill="#6b7080" text-anchor="middle">pieces drawn apart for clarity</text>
+
+  <g font-size="8" font-weight="bold" fill="#1d1f24" text-anchor="middle">
+    <text x="82" y="106">Project Curve-Body (I)</text>
+    <text x="255.1" y="106">Imprint Curve-Body (Shift+I)</text>
+    <text x="428.2" y="106">Cut (C)</text>
+  </g>
+  <g font-size="6.5" fill="#6b7080" text-anchor="middle">
+    <text x="82" y="117">adds a separate curve</text>
+    <text x="255.1" y="117">divides the face along the curve</text>
+    <text x="428.2" y="117">splits the body into separate bodies</text>
+  </g>
+</svg>

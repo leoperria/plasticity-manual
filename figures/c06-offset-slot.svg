@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Offset Planar Curve on an open curve: one side / Lock distances (both sides) / Slot (both sides + tangent arc ends).
+       Original arc: centre (82,115), R 60, 140..40 deg; offsets R 74 and R 46. Style: see docs/DIAGRAM-STYLE.md -->
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 z" fill="#5b3df5"/>
+    </marker>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+
+  <!-- 1 offset to one side -->
+  <path d="M25.31,67.43 A74,74 0 0 1 138.69,67.43" fill="none" stroke="#5b3df5" stroke-width="1.6"/>
+  <path d="M36.04,76.43 A60,60 0 0 1 127.96,76.43" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <line x1="82" y1="54" x2="82" y2="47" stroke="#5b3df5" stroke-width="1" marker-end="url(#arr)"/>
+  <text x="86" y="37" font-size="6" fill="#5b3df5">distance</text>
+
+  <!-- 2 lock distances: both sides (offset +173.1) -->
+  <path d="M198.41,67.43 A74,74 0 0 1 311.79,67.43" fill="none" stroke="#5b3df5" stroke-width="1.6"/>
+  <path d="M219.86,85.43 A46,46 0 0 1 290.34,85.43" fill="none" stroke="#5b3df5" stroke-width="1.6"/>
+  <path d="M209.14,76.43 A60,60 0 0 1 301.06,76.43" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <line x1="255.1" y1="54" x2="255.1" y2="47" stroke="#5b3df5" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="255.1" y1="56" x2="255.1" y2="63" stroke="#5b3df5" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- 3 slot: closed outline with tangent arc ends (offset +346.2) -->
+  <path d="M371.51,67.43 A74,74 0 0 1 484.89,67.43 A14,14 0 0 1 463.44,85.43 A46,46 0 0 0 392.96,85.43 A14,14 0 0 1 371.51,67.43 Z"
+        fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <path d="M382.24,76.43 A60,60 0 0 1 474.16,76.43" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+
+  <g text-anchor="middle">
+    <text x="82" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Offset</text>
+    <text x="82" y="117" font-size="6.5" fill="#6b7080">a new curve at the set distance</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Lock distances (S)</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">the same distance on both sides</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Slot (O, then O again)</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">both sides, ends closed with tangent arcs</text>
+  </g>
+</svg>

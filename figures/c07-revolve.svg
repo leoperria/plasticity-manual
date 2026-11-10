@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Revolve: profile and two axis clicks, full revolution (front view), partial revolution (top view).
+       Style: see docs/DIAGRAM-STYLE.md -->
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 z" fill="#5b3df5"/>
+    </marker>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+
+  <!-- 1 profile + axis (axis x = 60) -->
+  <line x1="60" y1="12" x2="60" y2="94" stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <path d="M60,85 L96,85 Q104,72 90,58 Q80,48 86,32 L86,26 L60,26 Z" fill="#ffffff" stroke="#e8a400" stroke-width="2.4"/>
+  <g fill="#ffffff" stroke="#1d1f24" stroke-width="1">
+    <circle cx="60" cy="90" r="3"/>
+    <circle cx="60" cy="18" r="3"/>
+  </g>
+  <text x="54" y="92.5" font-size="7" font-weight="bold" fill="#1d1f24" text-anchor="end">1</text>
+  <text x="54" y="20.5" font-size="7" font-weight="bold" fill="#1d1f24" text-anchor="end">2</text>
+  <text x="35" y="55" font-size="6" fill="#6b7080" text-anchor="middle">axis</text>
+  <text x="103" y="40" font-size="6" fill="#9a6d00">region</text>
+
+  <!-- 2 full revolution, front view (axis x = 255.1) -->
+  <path d="M219.1,85 Q211.1,72 225.1,58 Q235.1,48 229.1,32 L229.1,26 L281.1,26 L281.1,32 Q275.1,48 285.1,58 Q299.1,72 291.1,85 Z" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <ellipse cx="255.1" cy="26" rx="26" ry="4" fill="#efecff" stroke="#5b3df5" stroke-width="1.2"/>
+  <path d="M219.1,85 A36,5 0 0 0 291.1,85" fill="none" stroke="#5b3df5" stroke-width="1.6"/>
+  <path d="M219.1,85 A36,5 0 0 1 291.1,85" fill="none" stroke="#5b3df5" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <line x1="255.1" y1="12" x2="255.1" y2="96" stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2"/>
+
+  <!-- 3 partial revolution, top view (centre 428.2, 52) -->
+  <path d="M428.2,52 L460.2,52 A32,32 0 1 1 428.2,20 Z" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <line x1="428.2" y1="52" x2="460.2" y2="52" stroke="#e8a400" stroke-width="3"/>
+  <path d="M470.2,52 A42,42 0 1 1 428.2,10" fill="none" stroke="#5b3df5" stroke-width="1" marker-end="url(#arr)"/>
+  <circle cx="428.2" cy="52" r="2" fill="#1d1f24"/>
+  <text x="472" y="60" font-size="6" fill="#9a6d00">profile</text>
+  <text x="442" y="30" font-size="6" fill="#6b7080">axis seen end-on</text>
+  <line x1="441" y1="31" x2="430.5" y2="49.5" stroke="#6b7080" stroke-width="0.6"/>
+  <text x="356" y="56" font-size="6" fill="#5b3df5">Degrees</text>
+  <text x="365" y="13" font-size="6" fill="#6b7080">top view</text>
+
+  <g text-anchor="middle">
+    <text x="82" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Select, run, click the axis</text>
+    <text x="82" y="117" font-size="6.5" fill="#6b7080">click 1 = axis start, click 2 = axis end</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Full revolution</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">a region revolves into a solid</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Part of a turn</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">drag, press A, or type Degrees</text>
+  </g>
+</svg>

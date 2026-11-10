@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <!-- Cover background: dark page with four curves. y axis points down. -->
+  <rect width="210" height="297" fill="#1d1f24"/>
+  <g fill="none" stroke-width="0.776" stroke-linecap="round">
+    <path stroke="#5b3df5" d="M -5 177 C 60 117, 130 227, 215 152"/>
+    <path stroke="#2fc4a0" d="M -5 163 C 60 103, 130 213, 215 138"/>
+    <path stroke="#ff6b9a" d="M -5 149 C 60 89, 130 199, 215 124"/>
+    <path stroke="#ffc94d" d="M -5 135 C 60 75, 130 185, 215 110"/>
+  </g>
+</svg>

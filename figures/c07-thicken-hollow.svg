@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Thicken vs Hollow (sections). Style: see docs/DIAGRAM-STYLE.md
+       Drawn only as documented (doc.plasticity.xyz/solid/thicken, /solid/hollow): Thicken has one value per side of the sheet;
+       Hollow removes the selected face (open) or keeps the shell closed. Which side of the original faces the
+       Hollow wall lies on is not documented, so the hollow walls are schematic. -->
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+  <text x="8" y="13" font-size="6" fill="#6b7080">section views</text>
+
+  <!-- 1 Thicken: a sheet gets a thickness on each side -->
+  <path d="M30,52 Q82,22 134,52 L134,72 Q82,42 30,72 Z" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <path d="M30,64 Q82,34 134,64" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <text x="82" y="31" font-size="6" fill="#5b3df5" text-anchor="middle">side 1 thickness</text>
+  <text x="82" y="66" font-size="6" fill="#5b3df5" text-anchor="middle">side 2 thickness</text>
+  <text x="138" y="66" font-size="6" fill="#1d1f24">sheet</text>
+
+  <!-- 2 Hollow, face selected: open hollow -->
+  <path d="M210.1,35 L210.1,88 L300.1,88 L300.1,35 L292.1,35 L292.1,80 L218.1,80 L218.1,35 Z" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <line x1="210.1" y1="35" x2="300.1" y2="35" stroke="#e8a400" stroke-width="1.2" stroke-dasharray="3 2"/>
+  <text x="255.1" y="29" font-size="6" fill="#9a6d00" text-anchor="middle">selected face is removed</text>
+  <text x="255.1" y="60" font-size="6" fill="#6b7080" text-anchor="middle">open</text>
+
+  <!-- 3 Hollow, solid selected: closed hollow -->
+  <rect x="383.2" y="35" width="90" height="53" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+  <rect x="391.2" y="43" width="74" height="37" fill="#ffffff" stroke="#5b3df5" stroke-width="1.2"/>
+  <text x="428.2" y="64" font-size="6" fill="#6b7080" text-anchor="middle">closed inside</text>
+  <line x1="383.2" y1="28" x2="391.2" y2="28" stroke="#5b3df5" stroke-width="0.8"/>
+  <line x1="383.2" y1="25" x2="383.2" y2="31" stroke="#5b3df5" stroke-width="0.8"/>
+  <line x1="391.2" y1="25" x2="391.2" y2="31" stroke="#5b3df5" stroke-width="0.8"/>
+  <text x="395" y="30" font-size="6" fill="#5b3df5">Thickness</text>
+
+  <g font-size="5.5" fill="#6b7080" text-anchor="middle">
+    <text x="255.1" y="95.5">schematic: wall side not documented</text>
+    <text x="428.2" y="95.5">schematic: wall side not documented</text>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="82" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Thicken (a sheet)</text>
+    <text x="82" y="117" font-size="6.5" fill="#6b7080">one thickness value per side</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Hollow – face selected</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">open hollow: that face is removed</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Hollow – solid selected</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">closed hollow shell (turn Local off)</text>
+  </g>
+</svg>

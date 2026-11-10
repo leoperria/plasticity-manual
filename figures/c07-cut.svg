@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Cut: curve cutter, face cutter, Extend. The pieces are drawn slightly apart to show
+       that they become separate bodies. Style: see docs/DIAGRAM-STYLE.md -->
+  <defs>
+    <!-- panel 1: box and the two sides of the cutter curve -->
+    <clipPath id="box1"><rect x="42" y="28" width="80" height="52"/></clipPath>
+    <clipPath id="l1"><path d="M30,10 L76,10 L76,16 C66,40 96,62 86,92 L86,100 L30,100 Z"/></clipPath>
+    <clipPath id="r1"><path d="M76,10 L140,10 L140,100 L86,100 L86,92 C96,62 66,40 76,16 Z"/></clipPath>
+    <!-- panel 2: box and the two sides of the sheet -->
+    <clipPath id="box2"><rect x="215.1" y="30" width="80" height="52"/></clipPath>
+    <clipPath id="t2"><path d="M200,62 C235,40 270,70 310,48 L310,20 L200,20 Z"/></clipPath>
+    <clipPath id="b2"><path d="M200,62 C235,40 270,70 310,48 L310,95 L200,95 Z"/></clipPath>
+    <!-- panel 3 -->
+    <clipPath id="box3"><rect x="388.2" y="28" width="80" height="52"/></clipPath>
+    <clipPath id="l3"><path d="M376.2,10 L422.2,10 L422.2,16 C412.2,40 442.2,62 432.2,92 L432.2,100 L376.2,100 Z"/></clipPath>
+    <clipPath id="r3"><path d="M422.2,10 L486.2,10 L486.2,100 L432.2,100 L432.2,92 C442.2,62 412.2,40 422.2,16 Z"/></clipPath>
+    <clipPath id="short3"><rect x="380" y="38" width="100" height="32"/></clipPath>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+
+  <!-- 1 curve cutter (top view) -->
+  <text x="8" y="13" font-size="6" fill="#6b7080">top view</text>
+  <g transform="translate(-3 0)"><g clip-path="url(#l1)">
+    <rect x="42" y="28" width="80" height="52" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+    <path d="M76,16 C66,40 96,62 86,92" fill="none" stroke="#5b3df5" stroke-width="3.2" clip-path="url(#box1)"/>
+  </g></g>
+  <g transform="translate(3 0)"><g clip-path="url(#r1)">
+    <rect x="42" y="28" width="80" height="52" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+    <path d="M76,16 C66,40 96,62 86,92" fill="none" stroke="#5b3df5" stroke-width="3.2" clip-path="url(#box1)"/>
+  </g></g>
+  <path d="M76,16 C66,40 96,62 86,92" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <text x="81" y="16" font-size="6" fill="#1d1f24">cutter curve</text>
+
+  <!-- 2 face cutter (side view) -->
+  <text x="181" y="13" font-size="6" fill="#6b7080">side view</text>
+  <g transform="translate(0 -3)"><g clip-path="url(#t2)">
+    <rect x="215.1" y="30" width="80" height="52" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+    <path d="M200,62 C235,40 270,70 310,48" fill="none" stroke="#5b3df5" stroke-width="3.2" clip-path="url(#box2)"/>
+  </g></g>
+  <g transform="translate(0 3)"><g clip-path="url(#b2)">
+    <rect x="215.1" y="30" width="80" height="52" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+    <path d="M200,62 C235,40 270,70 310,48" fill="none" stroke="#5b3df5" stroke-width="3.2" clip-path="url(#box2)"/>
+  </g></g>
+  <path d="M200,62 C235,40 270,70 310,48" fill="none" stroke="#1d1f24" stroke-width="1.2"/>
+  <text x="255.1" y="22" font-size="6" fill="#1d1f24" text-anchor="middle">face of a sheet, seen edge-on</text>
+
+  <!-- 3 Extend (top view): the short curve is lengthened -->
+  <text x="354" y="13" font-size="6" fill="#6b7080">top view</text>
+  <g transform="translate(-3 0)"><g clip-path="url(#l3)">
+    <rect x="388.2" y="28" width="80" height="52" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+    <path d="M422.2,16 C412.2,40 442.2,62 432.2,92" fill="none" stroke="#5b3df5" stroke-width="3.2" clip-path="url(#box3)"/>
+  </g></g>
+  <g transform="translate(3 0)"><g clip-path="url(#r3)">
+    <rect x="388.2" y="28" width="80" height="52" fill="#efecff" stroke="#5b3df5" stroke-width="1.6"/>
+    <path d="M422.2,16 C412.2,40 442.2,62 432.2,92" fill="none" stroke="#5b3df5" stroke-width="3.2" clip-path="url(#box3)"/>
+  </g></g>
+  <path d="M422.2,16 C412.2,40 442.2,62 432.2,92" fill="none" stroke="#5b3df5" stroke-width="1" stroke-dasharray="3 2"/>
+  <path d="M422.2,16 C412.2,40 442.2,62 432.2,92" fill="none" stroke="#1d1f24" stroke-width="1.4" clip-path="url(#short3)"/>
+  <text x="427" y="16" font-size="6" fill="#5b3df5">extended</text>
+  <text x="474" y="56" font-size="6" fill="#1d1f24">short</text>
+  <text x="474" y="63" font-size="6" fill="#1d1f24">curve</text>
+
+  <g text-anchor="middle">
+    <text x="82" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Curve cutter</text>
+    <text x="82" y="117" font-size="6.5" fill="#6b7080">the curve makes a cutting surface</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Face cutter</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">the pieces become separate bodies</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Extend (25.2)</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">a short curve cutter is lengthened</text>
+  </g>
+</svg>

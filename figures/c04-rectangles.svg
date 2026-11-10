@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Rectangle variants and their clicks. Dots = clicks in order; violet = the rectangle (a Region); dashed grey = guides. -->
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="173.6" y="0.5" width="163" height="124" rx="5"/>
+    <rect x="346.7" y="0.5" width="163" height="124" rx="5"/>
+  </g>
+  <rect x="38" y="24" width="88" height="56" fill="#efecff" stroke="#5b3df5" stroke-width="1.7"/>
+  <line x1="38" y1="24" x2="126" y2="80" stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <circle cx="38" cy="24" r="2.3" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <text x="33" y="26.5" font-size="6.5" font-weight="bold" fill="#1d1f24" text-anchor="end">1</text>
+  <circle cx="126" cy="80" r="2.3" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <text x="131" y="82.5" font-size="6.5" font-weight="bold" fill="#1d1f24" text-anchor="start">2</text>
+  <rect x="211.1" y="24" width="88" height="56" fill="#efecff" stroke="#5b3df5" stroke-width="1.7"/>
+  <line x1="255.1" y1="52.0" x2="299.1" y2="80" stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <circle cx="255.1" cy="52" r="2.3" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <text x="250.1" y="54.5" font-size="6.5" font-weight="bold" fill="#1d1f24" text-anchor="end">1</text>
+  <circle cx="299.1" cy="80" r="2.3" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <text x="304.1" y="82.5" font-size="6.5" font-weight="bold" fill="#1d1f24" text-anchor="start">2</text>
+  <path d="M386.2,80 L457.46,48.27 L444.44,19.04 L373.18,50.77 Z" fill="#efecff" stroke="#5b3df5" stroke-width="1.7"/>
+  <circle cx="386.2" cy="80" r="2.3" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <text x="381.2" y="82.5" font-size="6.5" font-weight="bold" fill="#1d1f24" text-anchor="end">1</text>
+  <circle cx="457.46" cy="48.27" r="2.3" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <text x="462.46" y="50.77" font-size="6.5" font-weight="bold" fill="#1d1f24" text-anchor="start">2</text>
+  <circle cx="444.44" cy="19.04" r="2.3" fill="#1d1f24" stroke="#ffffff" stroke-width="0.6"/>
+  <text x="448.44" y="16.04" font-size="6.5" font-weight="bold" fill="#1d1f24" text-anchor="start">3</text>
+  <g text-anchor="middle">
+    <text x="82" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Corner Rectangle</text>
+    <text x="82" y="117" font-size="6.5" fill="#6b7080">1 and 2: opposite corners</text>
+    <text x="255.1" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Center Rectangle</text>
+    <text x="255.1" y="117" font-size="6.5" fill="#6b7080">1 centre, 2 a corner</text>
+    <text x="428.2" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Three-Point Rectangle</text>
+    <text x="428.2" y="117" font-size="6.5" fill="#6b7080">1–2 first side (any angle), 3 the width</text>
+  </g>
+</svg>

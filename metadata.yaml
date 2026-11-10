@@ -1,0 +1,16 @@
+# Metadata: cover, running header/footer, PDF properties.
+pdf-title: "Plasticity – Detailed Guide (reference version 26.2.0)"
+author: "Plasticity manual contributors"
+title: "Plasticity"
+subtitle: "Detailed Guide · reference version 26.2.0"
+cover-lines:
+  - "For each tool: what it is for, what to select, step-by-step use and the documented options"
+  - "Common problems and fixes, tips, related commands, practical workflows"
+  - "Diagrams for options and results that are easier to see than to read"
+cover-notes:
+  - "Reference version Plasticity 26.2.0 (2026.2). Introduced in = confirmed by release notes; Documented in = introduction unknown."
+  - "Based on doc.plasticity.xyz and the release notes, accessed 21/10/2026. Not application-tested. Unofficial document."
+header-left: "PLASTICITY 26.2"
+header-right: "Detailed guide"
+footer: "Default shortcuts shown for Windows/Linux. All bindings can be changed in the Command Palette (F)."
+card-breakable: true

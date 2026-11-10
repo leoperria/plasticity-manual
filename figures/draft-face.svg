@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="125" viewBox="0 0 510.2362 125" font-family="DejaVu Sans">
+  <!-- Draft Face: faces tilt by the draft angle about the reference (neutral) face. Side view. -->
+  <defs>
+    <marker id="g" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 z" fill="#6b7080"/>
+    </marker>
+  </defs>
+  <g fill="#f6f6fa" stroke="#d9dbe3" stroke-width="0.8">
+    <rect x="0.5" y="0.5" width="250.5" height="124" rx="5"/>
+    <rect x="259.7" y="0.5" width="250.5" height="124" rx="5"/>
+  </g>
+  <text x="8" y="13" font-size="6" fill="#6b7080">side view</text>
+
+  <!-- before (cx = 125.75) -->
+  <rect x="65.75" y="30" width="120" height="55" fill="#ffffff" stroke="#1d1f24" stroke-width="1.2"/>
+  <line x1="65.75" y1="30" x2="65.75" y2="85" stroke="#e8a400" stroke-width="3"/>
+  <line x1="185.75" y1="30" x2="185.75" y2="85" stroke="#e8a400" stroke-width="3"/>
+  <line x1="65.75" y1="85" x2="185.75" y2="85" stroke="#5b3df5" stroke-width="3"/>
+  <line x1="40" y1="84" x2="40" y2="34" stroke="#6b7080" stroke-width="1" marker-end="url(#g)"/>
+  <text x="34" y="60" font-size="6" fill="#6b7080" text-anchor="middle" transform="rotate(-90 34 60)">pull direction</text>
+  <text x="191" y="58" font-size="6" fill="#9a6d00">faces to draft</text>
+  <text x="125.75" y="94" font-size="6" fill="#5b3df5" text-anchor="middle">reference (neutral) face</text>
+
+  <!-- after (cx = 384.95) -->
+  <line x1="324.95" y1="30" x2="324.95" y2="85" stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <line x1="444.95" y1="30" x2="444.95" y2="85" stroke="#6b7080" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <polygon points="324.95,85 444.95,85 432.95,30 336.95,30" fill="#efecff" stroke="none"/>
+  <line x1="336.95" y1="30" x2="432.95" y2="30" stroke="#1d1f24" stroke-width="1.2"/>
+  <line x1="324.95" y1="85" x2="336.95" y2="30" stroke="#5b3df5" stroke-width="1.8"/>
+  <line x1="444.95" y1="85" x2="432.95" y2="30" stroke="#5b3df5" stroke-width="1.8"/>
+  <line x1="324.95" y1="85" x2="444.95" y2="85" stroke="#5b3df5" stroke-width="3"/>
+  <path d="M324.95,55 A30,30 0 0 1 331.03,55.62" fill="none" stroke="#1d1f24" stroke-width="0.8"/>
+  <text x="333" y="50" font-size="6" fill="#1d1f24">draft angle (Degrees)</text>
+  <text x="384.95" y="94" font-size="6" fill="#5b3df5" text-anchor="middle">reference face stays in place</text>
+
+  <g text-anchor="middle">
+    <text x="125.75" y="106" font-size="8" font-weight="bold" fill="#1d1f24">Before</text>
+    <text x="125.75" y="117" font-size="6.5" fill="#6b7080">select the reference face, then the faces to draft</text>
+    <text x="384.95" y="106" font-size="8" font-weight="bold" fill="#1d1f24">After</text>
+    <text x="384.95" y="117" font-size="6.5" fill="#6b7080">the faces tilt by the draft angle about the reference face</text>
+  </g>
+</svg>

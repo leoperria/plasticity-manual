@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510.2362" height="160" viewBox="0 0 510.2362 160" font-family="DejaVu Sans">
+  <!-- Interface layout (26.2), extended edition. Replaces figures/ui-layout.svg, whose left sidebar
+       still showed "Assets (materials)". Schematic: proportions are not to scale. -->
+  <rect x="0.5" y="0.5" width="509.2" height="159" rx="8" fill="#1d1f24"/>
+
+  <!-- P-Menu -->
+  <rect x="8" y="8" width="64" height="15" rx="7.5" fill="#5b3df5"/>
+  <text x="40" y="18.3" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">P-Menu (file)</text>
+
+  <!-- left sidebar -->
+  <rect x="8" y="29" width="104" height="104" rx="5" fill="#33363e" stroke="#4a4d57" stroke-width="0.8"/>
+  <g text-anchor="middle" fill="#e6e6ef">
+    <text x="60" y="44" font-size="6.5" font-weight="bold">LEFT SIDEBAR</text>
+    <text x="60" y="59" font-size="6.2" font-weight="bold">Outliner</text>
+    <text x="60" y="67" font-size="5.6" fill="#b8bcc8">objects, groups, planes,</text>
+    <text x="60" y="74" font-size="5.6" fill="#b8bcc8">measurements</text>
+    <text x="60" y="88" font-size="6.2" font-weight="bold">Materials</text>
+    <text x="60" y="102" font-size="6.2" font-weight="bold">Assets <tspan font-weight="normal" font-size="5.6" fill="#b8bcc8">(parts, 26.2)</tspan></text>
+    <text x="60" y="122" font-size="6" fill="#b9a9ff">Ctrl+B</text>
+  </g>
+  <g stroke="#4a4d57" stroke-width="0.6">
+    <line x1="18" y1="80" x2="102" y2="80"/><line x1="18" y1="94" x2="102" y2="94"/>
+  </g>
+
+  <!-- viewport -->
+  <rect x="119" y="8" width="272" height="125" rx="5" fill="#2a2c33" stroke="#4a4d57" stroke-width="0.8"/>
+  <text x="255" y="24" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">3D VIEWPORT</text>
+  <rect x="352" y="14" width="32" height="25" rx="3" fill="#3a3d46" stroke="#6b7080" stroke-width="0.6"/>
+  <g text-anchor="middle" font-size="5.5" fill="#e6e6ef">
+    <text x="368" y="25">View</text><text x="368" y="33">cube</text>
+  </g>
+  <rect x="127" y="36" width="82" height="36" rx="4" fill="#3a3d46" stroke="#d9dbe3" stroke-width="0.6"/>
+  <g text-anchor="middle" font-size="5.8" fill="#e6e6ef">
+    <text x="168" y="48" font-weight="bold">Command dialog</text>
+    <text x="168" y="57">options, OK,</text><text x="168" y="65">docs link icon</text>
+  </g>
+  <rect x="218" y="44" width="126" height="22" rx="4" fill="#3a3d46" stroke="#6b7080" stroke-width="0.6"/>
+  <text x="281" y="57.5" font-size="5.8" fill="#e6e6ef" text-anchor="middle">Gizmos + yellow drag handles</text>
+  <rect x="127" y="80" width="256" height="27" rx="4" fill="#5b3df5"/>
+  <g text-anchor="middle" font-size="6" fill="#ffffff">
+    <text x="255" y="91" font-weight="bold">Command Palette (F) · Suggested Commands (Shift+F)</text>
+    <text x="255" y="100">appear over the viewport on demand</text>
+  </g>
+
+  <!-- right sidebar -->
+  <rect x="398" y="8" width="104" height="125" rx="5" fill="#33363e" stroke="#4a4d57" stroke-width="0.8"/>
+  <g text-anchor="middle" fill="#e6e6ef">
+    <text x="450" y="50" font-size="6.5" font-weight="bold">RIGHT SIDEBAR</text>
+    <text x="450" y="63" font-size="5.6" fill="#b8bcc8">panels that open as menus:</text>
+    <text x="450" y="71" font-size="5.6" fill="#b8bcc8">Snapping, Planes,</text>
+    <text x="450" y="79" font-size="5.6" fill="#b8bcc8">Selection info, etc.</text>
+    <text x="450" y="95" font-size="6" fill="#b9a9ff">Ctrl+Shift+B</text>
+  </g>
+
+  <!-- command bar -->
+  <rect x="119" y="138" width="272" height="15" rx="4" fill="#3a3d46" stroke="#6b7080" stroke-width="0.6"/>
+  <text x="255" y="148" font-size="5.6" fill="#e6e6ef" text-anchor="middle"><tspan font-weight="bold">Command bar</tspan> · search, Move, Rotate, Scale, Duplicate, Boolean, arrays, suggestions</text>
+</svg>
